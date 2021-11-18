@@ -1,0 +1,11 @@
+<div class="title" (click)="toggle.emit()">
+  {{ title }}
+</div>
+<div *ngIf="expanded">
+  <ul>
+    <li>Page 1</li>
+    <li>Page 2</li>
+    <li>Page 3</li>
+    <li>Page 4</li>
+  </ul>
+</div>

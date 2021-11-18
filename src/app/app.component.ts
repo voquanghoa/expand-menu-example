@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'expand-menu-sample';
+  public modules = [
+    "Module A",
+    "Module B",
+    "Module C",
+    "Module D",
+  ]
 }

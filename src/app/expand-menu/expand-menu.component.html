@@ -1,0 +1,10 @@
+<div>
+  <app-expand-menu-item
+    *ngFor="let module of modules;let i = index" [id]="i"
+    [expanded]="expandIndex === i"
+    [title]="module"
+    (toggle)="onToggle(i)"
+  >
+
+  </app-expand-menu-item>
+</div>
